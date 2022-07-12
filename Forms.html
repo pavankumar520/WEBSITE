@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>EXAM!</title>
+        <style>
+            body{
+                background: linear-gradient(black, #3c651a);
+                margin:10%;
+            }
+            .div1{
+                margin-top: 50px;
+                width:50%;
+                background: linear-gradient(to right,#1a5,#55c6);
+                background-image: url("2.jpg");
+            }
+            h1{
+               color:white;
+               font-family:cursive;
+               font-size: 25px;
+               /* text-shadow:10px 5px 10px red; */
+            }
+            sub{
+                color: red;
+            }
+            .subdiv{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color:#50009f;
+                height:10%;
+            }
+            .tab{
+                padding: 10px;
+            }
+            .tab tr td{
+                padding: 7px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1"> 
+        <h1><center><u>F1H20</u><sub>RGUKT</sub></center></h1>
+        <form action="a.php" method="post" onsubmit="return myform()">
+            <center><table class="tab">
+                <tr><td>Name:</td><td><input type="text" id="fn" onkeyup="fullname"></td><td><label id="fl"></label></td></tr>
+                <tr><td>country:</td><td><input type="text" id="mn" onkeyup="fullname"></td><td><label id="ml"></label></td></tr>
+                <tr><td>payment type:</td><td><input type="text" id="ln"></td><td><label id="ll"></label></td></tr>
+                <tr><td>Mobile Number:</td><td><input type="number" id="mob"></td><td><label id="ml"></label></td></tr>
+                <tr><td>Type of accommodation:</td><td><input type="checkbox" id="c1"><label>Nuzvid</label><input type="checkbox" id="c2"><label>Ongole</label><input type="checkbox" id="c3"><label>RKV</label></td><td><label id="chek"></label></td></tr>
+                <!-- <tr><td> :</td><td><input type="text" id="mn" onkeyup="payment"></td><td><label id="m1"></label></td></tr> -->
+                <!-- <tr><td></td><td><input type="submit" value="Submit" style="background-color: #0482d6; cursor: pointer;"><input type="reset" value="Reset" id="res" style="margin-left:15px; background-color: #7E0F4B; cursor: pointer;"></td></tr> -->
+            </center></table>
+        </form>
+        </div>
+    
+        <script src="forms.js"></script>
+    </body>
+</html>

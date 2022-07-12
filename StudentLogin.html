@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>StudentLoginForm</title>
+        <link rel="stylesheet" type="text/css" href="StudentLogin.css"> 
+    </head>
+    <body>
+        <div class="formdiv">
+            <h2>Student Login</h2>
+            <form action="a.php" method="post" onsubmit="return myform()">
+                <table class="tab">
+                    <tr>
+                        <td>Student ID:</td><td><input type="text" id="sid"></td><td><label id="l1" style="display: none; color: red;" >Invalid Student ID</label></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td><td><input type="password" id="spa"></td><td><label id="l2" style="display: none; color: red;" >Invalid Password</label></td>
+                    </tr>
+                    <tr>
+                        <td></td><td><input type="submit" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script src="StudentLogin.js"></script>
+    </body>
+</html>

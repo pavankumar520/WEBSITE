@@ -1,0 +1,131 @@
+<html>
+  <head>
+    <title>Project_New</title>
+    <link rel="icon" href="logo1.png">
+    <link rel="stylesheet" type="text/css" href="Project_New.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+  </head>
+   <body>
+     <div>
+       <h4 id="name">pavan</h4>
+       <img src="photo.jpg" height="80px" width="80px" id="image">
+     </div>
+     <h2>Rajiv Gandhi University Of Knowledge Technology</h2>
+     <div class="main-div" id="menu">
+       <div class="div1"></div>
+       <div class="div2"></div>
+       <div class="div3"></div>
+     </div>
+     <nav>
+       <div class="menu-bar" id="Hnav">
+        <ul>
+          <li class="home" id="Home"><a href="#"><i class="fa-solid fa-house-user"></i>HOME</a></li>
+          <li id="Exams"><a href="#">EXAM</a></li>
+          <li>
+            <a href="#">BRANCH <i class="fa-solid fa-caret-down"></i></a>
+           
+             <div class="sub-menu">
+               <ul>
+                <li><a href="#">CSE</a>
+                  <div class="sub-menu1">
+                     <ul>
+                      <li id="Fac"><a href="#">FACULTY</a></li>
+                      <li id="Stu"><a href="#">STUDENT</a></li>
+                     </ul>
+                  </div>
+                </li>
+                <li><a href="#">ECE</a></li>
+                <li><a href="#">MECH</a>
+                </ul>
+             </div>
+          </li>
+          <li><a href="#">HELP
+            <i class="fa-solid fa-hand-holding-hand"></i></a></li>
+        </ul>
+       </div>
+     </nav>
+     <div class="verticalNav" id="Vnav">
+       <ul>
+         <li><a href="#" >HOME</a></li>
+         <li><a href="#">EXAM</a></li>
+         <li><a href="#">BRANCH</a>
+          <div class="Vsub-menu">
+            <ul>
+             <li><a href="#">CSE</a>
+               <div class="Vsub-menu1">
+                  <ul>
+                   <li><a href="#" >FACULTY</a></li>
+                   <li><a href="#" >STUDENT</a></li>
+                  </ul>
+               </div>
+             </li>
+             <li><a href="#">ECE</a></li>
+             <li><a href="#">MECH</a>
+             </ul>
+          </div>
+        </li>
+         <li><a href="#">HELP</a></li>
+       </ul>
+     </div>
+     <div class="main-body" name="Main">
+      <div class="leftdiv" id="ldiv">
+        <div class="lefdiv1">
+          <p><i>StudentID Numbers</i></p>
+          <input type="text" onkeyup="myFunction()" placeholder="Search For ID Numbers......" id="myInput">
+        </div>
+        <div class="ids">
+        <ul id="myUL">
+          <li>N180101</li>
+          <li>N180201</li>
+          <li>N180301</li>
+          <li>N180401</li>
+          <li>N180501</li>
+          <li>N180601</li>
+          <li>N180701</li>
+          <li>N180801</li>
+          <li>N180901</li>
+          <li>N181101</li>
+          <li>N180118</li>
+          <li>N180180</li>
+          <li>N181131</li>
+          <li>N181148</li>
+          <li>N181157</li>
+          <li>N180161</li>
+          <li>N180715</li>
+          <li>N180181</li>
+          <li>N180197</li>
+          <li>N180201</li>
+          
+        </ul>
+        </div>
+      </div>
+     <div class="middiv" id="mdiv">
+       <img class="mySlides" src="1.jpg" height="100%" width="100%">
+       <img class="mySlides" src="2.jpg" height="100%" width="100%">
+       <img class="mySlides" src="3.jpg" height="100%" width="100%">
+       <img class="mySlides" src="4.jpg" height="100%" width="100%">
+       <button class="left" onclick="plusDivs(-1)" style="cursor: pointer;">&#10094;</button>
+       <button class="right" onclick="plusDivs(+1)"style="cursor: pointer;">&#10095;</button>
+      </div>
+       <div class="rightdiv" id="rdiv">
+         <b>Notifications</b>
+         <p>1.Circular to the  students about your acodemics</p>
+         <p>2.Circular to students regarding FoodCourt.</p>
+         <p>3.Circular to in-campus students regarding Covid-19 Protocol.</p>
+         <p>4.Circular to Students regarding Nuzvid Mess Timings»</p>
+         <p>5.Circular for the payment of Vasathi Devena/Mess charges of the academic year»
+          </p>
+          <p>6.Circular to the college tuition fee pendingss</p>
+          <p>7.Admitions-2022 Open in Auguest.</p>
+       </div>
+       <iframe src="FacultyLogin.html" height="100%" width="100%" id="faculty" style="display: none;"></iframe>
+       <iframe src="StudentLogin.html" height="100%" width="100%" id="Student" style="display: none;"></iframe>
+       <iframe src="Forms.html" height="100%" width="100%" id="registration"  style="display: none;"></iframe>
+    </div>
+     <footer id="footer-sec">
+      <P><small>Copy Right &copy;2018 Batch CSE Students</small></P>
+<img id="counter" src="https://hitwebcounter.com/counter/counter.php?page=8004157&style=0036&nbdigits=6&type=page&initCount=100000" title="Free Counter" Alt="web counter" border="0" />  
+  </footer>
+     <script src="Project_New.js"></script>
+   </body>
+</html>
